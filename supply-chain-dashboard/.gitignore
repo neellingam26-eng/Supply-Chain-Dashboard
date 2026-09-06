@@ -1,0 +1,10 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Power BI temp/lock files
+*.pbix.lock
+~$*.pbix
+
+# Large raw data (link to Kaggle instead of committing the CSV)
+data/*.csv
