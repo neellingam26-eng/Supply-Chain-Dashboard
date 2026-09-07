@@ -84,7 +84,7 @@ Top products, customer segment and geography breakdown.
 
 - Investigate root causes behind First Class shipping's high late-delivery rate
 - Add drill-through pages for individual product and customer deep-dives
-- Explore a predictive model for late-delivery risk using the existing feature set
+- Explore a predictive model for late-delivery risk using the existing feature set.
 
 ---
 
