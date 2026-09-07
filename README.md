@@ -61,17 +61,17 @@ Full measure list includes: Total Sales, Total Orders, Total Profit, Profit Marg
 ### 1. Executive Overview
 KPI cards, order trend (order date vs. ship date), sales by category and region.
 
-![Executive Overview](images/executive-overview.png)
+![Executive Overview](executive-overview.png)
 
 ### 2. Delivery Performance
 Late delivery split, delay breakdown by shipping mode and region.
 
-![Delivery Performance](images/delivery-performance.png)
+![Delivery Performance](delivery-performance.png)
 
 ### 3. Product & Customer Insights
 Top products, customer segment and geography breakdown.
 
-![Product & Customer Insights](images/product-customer-insights.png)
+![Product & Customer Insights](product-customer-insights.png)
 
 ## Key Insights
 
@@ -84,26 +84,23 @@ Top products, customer segment and geography breakdown.
 
 - Investigate root causes behind First Class shipping's high late-delivery rate
 - Add drill-through pages for individual product and customer deep-dives
-- Explore a predictive model for late-delivery risk using the existing feature set.
+- Explore a predictive model for late-delivery risk using the existing feature set
 
 ---
 
 ## Repository Structure
 
 ```
-supply-chain-dashboard/
+Supply-Chain-Dashboard/
 │
 ├── README.md                          # Project overview (this file)
-├── .gitignore                         # Excludes OS/Power BI temp files and raw data
+├── executive-overview.png             # Page 1 — KPI cards, order trend, sales by category/region
+├── delivery-performance.png           # Page 2 — late delivery %, delay by shipping mode/region
+├── product-customer-insights.png      # Page 3 — top products, segment & geography breakdown
 │
-├── docs/
-│   └── data-model-diagram.md          # Star schema (Mermaid diagram) + notes on the
-│                                       # dual date-relationship design
-│
-└── images/                            # Dashboard screenshots, one per report page
-    ├── executive-overview.png         # Page 1 — KPI cards, order trend, sales by category/region
-    ├── delivery-performance.png       # Page 2 — late delivery %, delay by shipping mode/region
-    └── product-customer-insights.png  # Page 3 — top products, segment & geography breakdown
+└── docs/
+    └── data-model-diagram.md          # Star schema (Mermaid diagram) + notes on the
+                                        # dual date-relationship design
 ```
 
 **Where to start reading:**
